@@ -1,4 +1,5 @@
 $("#search").click(function (){
+    $("#exhibit-list").empty();
     var text = $("#input-search").val();
         // to loop whatever is in the exibits
     for (var i = 0; i < data.length; i++) {
