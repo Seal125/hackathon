@@ -6,7 +6,7 @@ function textToSpeech(text) {
     window.speechSynthesis.speak(msg);
 }
 
-$(".TtS").click(function() {
+$("body").on("click",".TtS",function() {
     var speech = $($(this).parent().parent().find("p")[0]).text();
     return textToSpeech(speech);
 });

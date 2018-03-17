@@ -1,0 +1,31 @@
+
+
+#blue {
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0.7);
+    z-index: 1;
+    width:200px;
+
+}
+
+.red {
+    background-color: red;
+}
+#one{
+    position: absolute;
+    background-color: red;
+    left: 10%;
+    height:100px;
+    width:500px;
+    margin-left: -50px;
+    top:510px;
+}
+#two{
+    position: absolute;
+    background-color: red;
+    left: 50%;
+    height:200px;
+    width:500px;
+    margin-left: -50px;
+    top:210px;
+    }
